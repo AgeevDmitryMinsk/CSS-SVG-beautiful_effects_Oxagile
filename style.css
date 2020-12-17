@@ -23,7 +23,7 @@ svg {
   stroke: white;
   stroke-dasharray: 7% 28%;
   stroke-width: 3px;
-  animation: stroke-offset 25s ease; }
+  animation: stroke-offset 25s ease; } /*Атрибут stroke-dashoffset определяет сдвиг массива dash array относительно начального положения.*/
   .text-copy:nth-child(1) {
     stroke: white;
     stroke-dashoffset: 7%; }
