@@ -42,7 +42,7 @@ svg {
 
 @keyframes stroke-offset {
   0% {
-    stroke-dashoffset: 100%;
-    stroke-dasharray: 0 10%; } }
+    stroke-dashoffset: 100%; /*Свойство позволяет задать смещение пунктирной обводки относительно первоначального положения - http://css.yoksel.ru/svg-fill-and-stroke/.*/
+    stroke-dasharray: 0 10%; } } /*Управляет видом пунктирной обводки. Можно задавать в единицах длины или в процентах*/
 
 /*# sourceMappingURL=style.css.map */
